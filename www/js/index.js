@@ -4,6 +4,7 @@ var app = {
     initialize: function() {
     
         var url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
+        var url = "https://api.nasa.gov/planetary/apod?api_key=WvclPnY7QwyjQcZ13NoFsLR9K6WJEUR4JOsvXLxz";
         
         $("#loadImage").click(function(){
             $.ajax({
